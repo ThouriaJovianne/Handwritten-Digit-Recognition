@@ -12,5 +12,6 @@ Thoughout this notebook, we will work to optimize a Pytorch model to recognize h
 
 # Some Interesting Conclutions from the Project:
 * Simple Neural Networks learn very slowly:
+  
   ![](graphs/Net0.png)
 
