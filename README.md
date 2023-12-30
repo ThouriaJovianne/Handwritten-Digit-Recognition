@@ -18,7 +18,7 @@ Thoughout this notebook, we will work to optimize a Pytorch model to recognize h
 * As the complexity of the model increases, its accuracy also tends to increase, and it converges at a faster rate.
 
 ![](graphs/models_accuracy_on_train_data.png) 
-![](models_accuracy_on_test_data.png) 
+![](graphs/models_accuracy_on_test_data.png) 
 This is evident from the graph, which shows that all complex models (Net1 ~ Net6) achieved 99% accuracy, while Net0 with no hidden layers could only reach 92% on both train and test data after 50 epochs.
 
 * Early stopping is a useful technique to halt the training poccess when the model is no loger improving at an significant rate.
